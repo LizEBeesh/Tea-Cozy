@@ -15,10 +15,11 @@ body {
 
 .flex-container {
   display: flex;
-  margin: 0px;
   padding: 0px;
   width: 1200px;
   position: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #header {
@@ -46,17 +47,41 @@ text-decoration: underline;
 #Mission {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
 }
 
-.content {
+.flex-container .content {
+  display: block;
+  margin: auto;
+  background-color: black;
+  width: 1200px;
 
 }
  h2 {
    display: block;
    background-color: black;
+   background-size: 100%;
  }
 
  h4 {
    display: block;
    background-color: black;
  }
+
+ .store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#items-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  padding: 5px;
+}
