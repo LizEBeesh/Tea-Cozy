@@ -29,6 +29,8 @@ div {
   position: center;
 }
 
+/* Nav bar section*/
+
 #header {
   width: 100%;
   position: fixed;
@@ -36,7 +38,7 @@ div {
   height: 80px;
   background-color: black;
   border-bottom: 1px solid seashell;
-  align-items: center;
+  text-align: center;
 }
 
 header img {
@@ -44,11 +46,17 @@ header img {
 }
 
 nav {
-justify-content: flex-end;
+text-align: right;
 flex-grow: 1;
-justify-content: space-between;
 text-decoration: underline;
 }
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/*Mission Section*/
 
 #mission {
   height: 700px;
@@ -75,6 +83,8 @@ text-decoration: underline;
    display: block;
    background-color: black;
  }
+
+ /*Store Section*/
 
  #store {
   height: 700px;
@@ -103,7 +113,9 @@ text-decoration: underline;
   padding: 5px;
 }
 
-#locations-container {
+/*Locations Section (still struggling on the h2 here)*/
+
+.locations-container {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
   height: 500px;
@@ -115,18 +127,22 @@ text-decoration: underline;
   padding-top: 70px;
 }
 
-.locations-container h2 {
+#locations h2 {
   display: block;
+  padding: 15px;
 }
 
 .location {
-  padding-top: 50px;
+  margin: 5px 20px;
   background-color: black;
   height: 250px;
   flex-basis: 280px;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
+/*Footer section*/
 
 footer {
   width: 1200px;
