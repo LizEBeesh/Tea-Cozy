@@ -16,10 +16,6 @@ body {
   text-align: center;
 }
 
-div {
-  display: block;
-}
-
 .flex-container {
   display: flex;
   padding: 0px;
@@ -60,7 +56,7 @@ nav span {
 
 #mission {
   height: 700px;
-  width: 1200px;
+  width: 100%;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   justify-content: center;
   align-content: center;
@@ -88,7 +84,7 @@ nav span {
 
  #store {
   height: 700px;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   padding-top: 70px;
   justify-content: center;
@@ -96,10 +92,10 @@ nav span {
 }
 
 #items-container {
-  width: 1200px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -114,22 +110,16 @@ nav span {
 }
 
 /*Locations Section (still struggling on the h2 here)*/
-
-.locations-container {
+#locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  width: 1200px;
+  width: 100%;
   height: 500px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
-#locations h2 {
-  display: block;
-  padding: 15px;
+div.locations-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .location {
@@ -145,7 +135,7 @@ nav span {
 /*Footer section*/
 
 footer {
-  width: 1200px;
+  width: 100%;
   height: 200px;
   display: block;
 }
