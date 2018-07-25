@@ -124,10 +124,18 @@ text-decoration: underline;
   height: 250px;
   flex-basis: 280px;
   flex-direction: column;
-
-
 }
 
 .locations h2 {
   justify-content: center;
+}
+
+footer {
+  width: 1200px;
+  height: 200px;
+  display: block;
+}
+
+#copyright {
+  text-align: left;
 }
