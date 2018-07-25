@@ -1,3 +1,7 @@
+* {
+  border: 1px solid red;
+}
+
 a {
   color: seashell;
 }
@@ -10,6 +14,10 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+}
+
+div {
+  display: block;
 }
 
 .flex-container {
@@ -35,19 +43,12 @@ header img {
   height: 50px;
 }
 
-div {
-  display: block;
-}
-
-
-
 nav {
 justify-content: flex-end;
 flex-grow: 1;
 justify-content: space-between;
 text-decoration: underline;
 }
-
 
 #mission {
   height: 700px;
@@ -112,6 +113,10 @@ text-decoration: underline;
   justify-content: space-around;
   align-items: center;
   padding-top: 70px;
+}
+
+.locations-container h2 {
+  display: block;
 }
 
 .location {
